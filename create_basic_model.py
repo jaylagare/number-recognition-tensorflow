@@ -15,7 +15,7 @@ model = Sequential([
     Dense(10, activation='sigmoid')   # Output layer with 10 neurons (for 10 classes)
 ])
 
-# # Compile the model with optimizer, loss function, and evaluation metric
+# Compile the model with optimizer, loss function, and evaluation metric
 model.compile(optimizer='sgd', # Stochastic Gradient Descent as the optimization function 
     loss='mse',  # Mean Squared Error as the cost function
     metrics=['accuracy'])
